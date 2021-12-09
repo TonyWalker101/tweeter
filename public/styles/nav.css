@@ -1,4 +1,28 @@
-#main-logo {
-  font-family: 'Bungee', cursive;
+#nav-bar {
+  /* display: flex; */
+  /* align-items: space-between; */
+
+  background-color: #4056A1;
+  color: #FFFFFF;
+  block-size: 120px;
+  
 }
 
+#nav-logo {
+  display: flex;
+  justify-content: flex-start;
+  align-content: flex-end;
+  font-family: 'Bungee', cursive;
+  padding-left: 1.5em;
+  font-size: 40px;
+}
+
+#nav-side {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 1.5em;
+}
+
+#nav-arrow-picture {
+  size: 40px;
+}
