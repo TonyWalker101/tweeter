@@ -22,9 +22,10 @@
 }
 
 .right-nav {
+  display: flex;
+  align-items: flex-end;
   padding-right: 1.5em;
   border: 2px solid #FFFFFF;
-  padding-top: 58px;
 }
 
 /* .right-nav-child {
