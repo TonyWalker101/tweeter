@@ -12,6 +12,12 @@ $(document).ready(function() {
 
     $(".counter").val(`${remainingChars}`);
 
+    if (remainingChars < 0) {
+      $(".counter").addClass("negative-counter");
+    } else {
+      $(".counter").removeClass("negative-counter");
+    }
+
   })
 
 });
