@@ -2,8 +2,12 @@
   display: flex;
   flex-direction: column;
   /* border: 2px solid aqua; */
-  border: 5px solid black;
+  border: 3px solid black;
   /* height: 55px; */
+}
+
+.tweet-display:hover {
+  box-shadow: 5px 5px #c9cbdf;
 }
 
 .article-header-layout {
@@ -13,7 +17,7 @@
 .article-footer-layout {
   display: flex;
   justify-content: space-between;
-  border-top: 5px solid black;
+  border-top: 3px solid black;
   margin-right: 10px;
   margin-left: 10px;
 }
@@ -23,7 +27,25 @@
   border: 2px solid violet;
 }
 
+.article-top-right {
+  color: #c8cde3;
+}
+
+.article-bottom-right {
+  display: flex;
+  width: 150px;
+  justify-content: space-evenly;
+  border: 2px solid violet;
+  color: #4056A1
+}
+
+.article-bottom-right * :hover {
+  color: #cb9825;
+  /* color: #ca9823; */
+}
+
 .tweet-text {
   margin-right: 10px;
   margin-left: 10px;
 }
+
