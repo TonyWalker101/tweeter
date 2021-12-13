@@ -12,7 +12,10 @@
   border: 2px solid blue;
   color: white;
   background-color: #4056A1;
-  
+}
+
+.tweet-button:hover {
+  background-color: #203d9b;
 }
 
 .counter {
