@@ -22,12 +22,21 @@
   margin-left: 10px;
 }
 
-.box-element {
-  /* display: inline; */
+.article-top-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0.5em;
+  padding-left: 0.5em;
   border: 2px solid violet;
 }
 
 .article-top-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0.5em;
+  padding-right: 0.5em;
   color: #c8cde3;
   border: 2px solid violet;
 }
@@ -50,3 +59,10 @@
   margin-left: 10px;
 }
 
+.article-image {
+  border: 2px solid aqua;
+}
+
+.article-header-name {
+  border: 2px solid aqua;
+}
