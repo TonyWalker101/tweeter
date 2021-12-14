@@ -7,8 +7,6 @@
 
 
 $(document).ready(function() {
-  console.log("Test script running!!!");
-
   // Driver code
   
   const tweetData = [
