@@ -67,4 +67,16 @@ $(document).ready(function() {
 
   loadTweets();
 
+  // $.post("/tweets", newTweet, function () {
+  //     loadTweets();
+  //   });
+
+  // $.ajax({
+  //   type: "POST",
+  //   url: "http://localhost:8080/",
+  // }).then(response => {
+  //   loadTweets();
+  // });
+  
+
 });
