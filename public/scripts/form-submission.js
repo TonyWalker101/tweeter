@@ -4,6 +4,7 @@ $(document).ready(function() {
     event.preventDefault();
 
     const newTweet = $(this).serialize();
+    
     const textLength = $(this).serializeArray()["0"].value.length;
     
     if (textLength === 0) {
@@ -28,8 +29,8 @@ $(document).ready(function() {
       }).then(response => {
         const tweet = createTweetElement(response[response.length - 1]);
         $(".container").append(tweet);
+
       })
     });
-    
   });
 });
