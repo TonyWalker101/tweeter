@@ -2,6 +2,12 @@
   border: 2px solid blue;
 }
 
+#error_msg {
+  color: red;
+  font-weight: 700;
+  /* border: 3px solid red; */
+}
+
 .tweet-form {
   border: 2px solid aqua;
   display: flex;
@@ -43,3 +49,4 @@
   height: 60px;
   align-items: flex-end;
 }
+
