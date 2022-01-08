@@ -12,7 +12,7 @@ $(document).ready(function() {
       type: "GET",
       url: "http://localhost:8080/tweets",
     }).then(response => {
-      renderTweets(response);
+      renderTweets(response.reverse());
     })
   
   };
@@ -27,4 +27,4 @@ $(document).ready(function() {
 
   loadTweets();
     
-  });
+});
