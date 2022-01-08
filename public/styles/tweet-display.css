@@ -1,9 +1,7 @@
 .tweet-display {
   display: flex;
   flex-direction: column;
-  /* border: 2px solid aqua; */
   border: 3px solid black;
-  /* height: 55px; */
 }
 
 .tweet-display:hover {
@@ -28,7 +26,6 @@
   align-items: center;
   padding-top: 0.5em;
   padding-left: 0.5em;
-  /* border: 2px solid violet; */
 }
 
 .article-top-right {
@@ -38,31 +35,20 @@
   padding-top: 0.5em;
   padding-right: 0.5em;
   color: #c8cde3;
-  /* border: 2px solid violet; */
 }
 
 .article-bottom-right {
   display: flex;
   width: 150px;
   justify-content: space-evenly;
-  /* border: 2px solid violet; */
   color: #4056A1
 }
 
 .article-bottom-right * :hover {
   color: #cb9825;
-  /* color: #ca9823; */
 }
 
 .tweet-text {
   margin-right: 10px;
   margin-left: 10px;
-}
-
-/* .article-image {
-  border: 2px solid aqua;
-} */
-
-/* .article-header-name {
-  border: 2px solid aqua;
-} */
+};

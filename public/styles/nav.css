@@ -10,29 +10,23 @@
 .left-nav {
   display: flex;
   align-items: flex-end;
-
   font-family: 'Bungee', cursive;
   padding-left: 1.5em;
   font-size: 40px; 
-  /* border: 2px solid #FFFFFF; */
   padding-bottom: 20px;
-
 }
 
 .right-nav {
   display: flex;
   align-items: flex-end;
   padding-right: 1.5em;
-  /* border: 2px solid #FFFFFF; */
 }
 
 .nav-prompt {
   display: block;
-  /* border: 2px solid #FFFFFF; */
 }
 .nav-logo {
   display: block;
-  /* border: 2px solid #FFFFFF; */
   text-align: center;
   color: #ed3c1f;
-}
+};
