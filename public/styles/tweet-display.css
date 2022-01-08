@@ -28,7 +28,7 @@
   align-items: center;
   padding-top: 0.5em;
   padding-left: 0.5em;
-  border: 2px solid violet;
+  /* border: 2px solid violet; */
 }
 
 .article-top-right {
@@ -38,14 +38,14 @@
   padding-top: 0.5em;
   padding-right: 0.5em;
   color: #c8cde3;
-  border: 2px solid violet;
+  /* border: 2px solid violet; */
 }
 
 .article-bottom-right {
   display: flex;
   width: 150px;
   justify-content: space-evenly;
-  border: 2px solid violet;
+  /* border: 2px solid violet; */
   color: #4056A1
 }
 
@@ -59,10 +59,10 @@
   margin-left: 10px;
 }
 
-.article-image {
+/* .article-image {
   border: 2px solid aqua;
-}
+} */
 
-.article-header-name {
+/* .article-header-name {
   border: 2px solid aqua;
-}
+} */
