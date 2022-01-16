@@ -14,7 +14,6 @@ $(document).ready(function() {
     }).then(response => {
       renderTweets(response.reverse());
     })
-  
   };
 
 
@@ -23,7 +22,6 @@ $(document).ready(function() {
       $(".container").append(createTweetElement(obj));
     }
   };
-
 
   loadTweets();
     
