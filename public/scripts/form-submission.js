@@ -26,7 +26,7 @@ $(document).ready(function() {
       return;
     } 
 
-    if (textLength >= 140) {
+    if (textLength > 140) {
       hideError();
       const errorImage = '<i class="fas fa-exclamation-triangle"></i>'
       const errorMessage = `${errorImage} Please reduce the number of characters in your Tweet in order to submit! (Max: 140)`
