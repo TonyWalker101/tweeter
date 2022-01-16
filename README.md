@@ -14,7 +14,11 @@ This repository is the starter code for the project: Students will fork and clon
 
 ## Screenshots
 
+Desktop Version:
+
 !["tweeter-desktop-version"](https://github.com/TonyWalker101/tweeter/blob/master/docs/tweeter-desktop.png?raw=true)
+
+Mobile/Tablet Version:
 
 !["tweeter-mobile-version"](https://github.com/TonyWalker101/tweeter/blob/master/docs/tweeter-mobile.png?raw=true)
 
